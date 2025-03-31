@@ -142,3 +142,29 @@ La autenticación basada en tokens es una técnica que permite al usuario autent
 En el repositiorio se sube una muestra de un breve proyecto para consola donde el usuario podrá introducir dos campos: Username y Password, y así podrá experimentar con metodo SHA256 y luego
 podrá ver cómo se usa el RSA para encriptar texto
 
+## Fuentes
+
+1. **SHA256 en .NET**:  
+   Microsoft Docs. (2021). [SHA256](https://learn.microsoft.com/es-es/dotnet/api/system.security.cryptography.sha256?view=net-8.0)  
+   Recuperado el 31 de marzo de 2025.
+
+2. **RSACryptoServiceProvider.Encrypt en .NET**:  
+   Microsoft Docs. (2021). [RSACryptoServiceProvider.Encrypt](https://learn.microsoft.com/es-es/dotnet/api/system.security.cryptography.rsacryptoserviceprovider.encrypt?view=net-9.0)  
+   Recuperado el 31 de marzo de 2025.
+
+3. **Encriptación Asimétrica RSA en C#**:  
+   Balusoft. (2013). [Encriptación Asimétrica RSA en C#](https://balusoft.wordpress.com/2013/05/08/encriptacin-asimtrica-rsa-en-c/)  
+   Recuperado el 31 de marzo de 2025.
+
+4. **Inyección SQL en SQL Server**:  
+   Microsoft Docs. (2021). [SQL Injection](https://learn.microsoft.com/es-es/sql/relational-databases/security/sql-injection?view=sql-server-ver16)  
+   Recuperado el 31 de marzo de 2025.
+
+5. **Top 10 de OWASP**:  
+   OWASP. (2021). [OWASP Top 10](https://owasp.org/Top10/es/)  
+   Recuperado el 31 de marzo de 2025.
+
+6. **Guía de Pruebas de Seguridad en Aplicaciones Web de OWASP**:  
+   OWASP. (2021). [Testing for SQL Injection](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/07-Input_Validation_Testing/05-Testing_for_SQL_Injection)  
+   Recuperado el 31 de marzo de 2025.
+
