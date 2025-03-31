@@ -1,0 +1,15 @@
+D:\SANTIAGO\ITB\m09-t1-pr1-seguretat-i-vulnerabilitat-HWL-itb-Santiago\T1.PR1\T1.PR1\bin\Debug\net8.0\T1.PR1.exe
+D:\SANTIAGO\ITB\m09-t1-pr1-seguretat-i-vulnerabilitat-HWL-itb-Santiago\T1.PR1\T1.PR1\bin\Debug\net8.0\T1.PR1.deps.json
+D:\SANTIAGO\ITB\m09-t1-pr1-seguretat-i-vulnerabilitat-HWL-itb-Santiago\T1.PR1\T1.PR1\bin\Debug\net8.0\T1.PR1.runtimeconfig.json
+D:\SANTIAGO\ITB\m09-t1-pr1-seguretat-i-vulnerabilitat-HWL-itb-Santiago\T1.PR1\T1.PR1\bin\Debug\net8.0\T1.PR1.dll
+D:\SANTIAGO\ITB\m09-t1-pr1-seguretat-i-vulnerabilitat-HWL-itb-Santiago\T1.PR1\T1.PR1\bin\Debug\net8.0\T1.PR1.pdb
+D:\SANTIAGO\ITB\m09-t1-pr1-seguretat-i-vulnerabilitat-HWL-itb-Santiago\T1.PR1\T1.PR1\obj\Debug\net8.0\T1.PR1.GeneratedMSBuildEditorConfig.editorconfig
+D:\SANTIAGO\ITB\m09-t1-pr1-seguretat-i-vulnerabilitat-HWL-itb-Santiago\T1.PR1\T1.PR1\obj\Debug\net8.0\T1.PR1.AssemblyInfoInputs.cache
+D:\SANTIAGO\ITB\m09-t1-pr1-seguretat-i-vulnerabilitat-HWL-itb-Santiago\T1.PR1\T1.PR1\obj\Debug\net8.0\T1.PR1.AssemblyInfo.cs
+D:\SANTIAGO\ITB\m09-t1-pr1-seguretat-i-vulnerabilitat-HWL-itb-Santiago\T1.PR1\T1.PR1\obj\Debug\net8.0\T1.PR1.csproj.CoreCompileInputs.cache
+D:\SANTIAGO\ITB\m09-t1-pr1-seguretat-i-vulnerabilitat-HWL-itb-Santiago\T1.PR1\T1.PR1\obj\Debug\net8.0\T1.PR1.sourcelink.json
+D:\SANTIAGO\ITB\m09-t1-pr1-seguretat-i-vulnerabilitat-HWL-itb-Santiago\T1.PR1\T1.PR1\obj\Debug\net8.0\T1.PR1.dll
+D:\SANTIAGO\ITB\m09-t1-pr1-seguretat-i-vulnerabilitat-HWL-itb-Santiago\T1.PR1\T1.PR1\obj\Debug\net8.0\refint\T1.PR1.dll
+D:\SANTIAGO\ITB\m09-t1-pr1-seguretat-i-vulnerabilitat-HWL-itb-Santiago\T1.PR1\T1.PR1\obj\Debug\net8.0\T1.PR1.pdb
+D:\SANTIAGO\ITB\m09-t1-pr1-seguretat-i-vulnerabilitat-HWL-itb-Santiago\T1.PR1\T1.PR1\obj\Debug\net8.0\T1.PR1.genruntimeconfig.cache
+D:\SANTIAGO\ITB\m09-t1-pr1-seguretat-i-vulnerabilitat-HWL-itb-Santiago\T1.PR1\T1.PR1\obj\Debug\net8.0\ref\T1.PR1.dll
