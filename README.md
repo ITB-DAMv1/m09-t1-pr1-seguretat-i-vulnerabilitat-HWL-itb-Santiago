@@ -116,3 +116,7 @@ La autenticación basada en tokens es una técnica que permite al usuario autent
 - **IdentityServer4**
 - **Auth0 SDK for .NET**
 
+# 5. Proyecto de consola
+En el repositiorio se sube una muestra de un breve proyecto para consola donde el usuario podrá introducir dos campos: Username y Password, y así podrá experimentar con metodo SHA256 y luego
+podrá ver cómo se usa el RSA para encriptar texto
+
